@@ -34,7 +34,7 @@ like to think of myself ;) ), I've been searching for a better language than C++
 for a very long time. After learning and trying lots of the well-known languages
 and no satisfaction I've switched to less mainstream ones. Among them were
 [D](https://dlang.org), [Rust](https://www.rust-lang.org),
-[Crystal](https://crystal-lang.org), some others, and [Nim](https://crystal-lang.org),
+[Crystal](https://crystal-lang.org), some others, and [Nim](https://nim-lang.org),
 which I've suddenly discovered on Github. I shall not describe all of the
 pros and cons here, just those that were the key factors in our final decision.
 
