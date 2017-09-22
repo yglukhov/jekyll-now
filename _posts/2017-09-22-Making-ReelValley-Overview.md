@@ -3,7 +3,7 @@ layout: post
 title: Making ReelValley - Overview
 ---
 
-Recently the team which I am proud to be the part of relased a new game named
+Recently the team which I am proud to be the part of released a new game named
 [Reel Valley](https://apps.facebook.com/reelvalley). The game is done in almost
 100% pure [Nim](https://nim-lang.org) and I've received a lot of questions
 regarding implementation details and decisions taken. Questions that inspired me
@@ -16,7 +16,7 @@ strategic decisions.
 
 Technology stack
 ----------------
-First thing that was obvious - the game had to run in the the web browsers as
+First thing that was obvious - the game had to run in web browsers as
 well as on mobile devices. All of such targets imply that the technology stack
 should provide minimal runtime overhead even for small casual games. It also
 was obvious that the codebase had to be almost the same for all the targets.
