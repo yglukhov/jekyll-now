@@ -92,14 +92,14 @@ and others.
 I've been asked a question about Nim JS backend, whether it is good or not. And
 the answer is yes, it is pretty darn good (especially with
 [closure compiler](https://github.com/yglukhov/closure_compiler), and we're using
-for our tools, but not the game itself. At some point we had to switch from JS to
+it for our tools, but not the game itself. At some point we had to switch from JS to
 [Emscripten](https://emscripten.org), just because Asm.js is much faster, and
 thanks to Nim the transition went pretty quickly. Hopefully we shall soon support
 WebAsm target as well.
 
 To Conclude
 ===========
-As it is likely clear from the post, Nim turned out to be a great language for
+As it is likely clear from the post Nim turned out to be a great language for
 any kind of software development, be it commercial production grade software,
 or a couple-of-lines one shot script, not to mention the huge amount
 of fun you get when using it. It is very easy to do early prototypes. As you may
