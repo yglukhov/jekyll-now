@@ -54,29 +54,32 @@ Compiler bugs. Lots of bugs that either needed to be worked around or fixed.
 What if the core maintainers will not fix those for us timely? How hard would
 it be to fix those ourselves. And if there are some bugs that can't be fixed
 in a timely manner, how hard would it be to workaround those? And Nim has
-successfully passed that evaluation. 2 simple reasons: 1. Nim compiler codebase
-is rather concise and comprehendable for the most part, despite highly
-sophisticated stuff it does. Overtime we have contributed quite a bunch of fixes
-and features. And 2. Nim allows you inline target backend code (be it C or
-JavaScript) right into the Nim source code. So we are always confident that
-neither of Nim bugs shall prevent us from getting to the point, we always can
-fallback to C where needed.
+successfully passed that evaluation. 2 simple reasons:
+
+1. Nim compiler codebase is rather concise and comprehendable for the most part,
+despite highly sophisticated stuff it does. Overtime we have contributed quite a
+bunch of fixes and features.
+2. Nim allows you inline target backend code (be it C or JavaScript) right into
+the Nim source code. So we are always confident that neither of Nim bugs shall
+prevent us from getting to the point, we always can fallback to C where needed.
 
 Community and available third-party packages. What if there's no package available
 in Nim that we suddenly need, while in a mainstream language you can easily find
 dozens of libraries that do the same thing. Can we implement the needed packages
 on our own, and if not, how easy it is to bind to a lib from a foreign ecosystem?
-And the answer is YES again. 1. Productivity that the language offers is
-extremely high, the needed parts can be reinvented much faster than, say in C++
-or a typeless scripting language. And 2. It turned out to be very easy to bind
-to existing C/C++/JS code, be it in a static lib, dynamic lib, C header file,
-or just copypaste the needed code and inline it, no strings attached.
+And the answer is YES again.
+
+1. Productivity that the language offers is extremely high, the needed parts can
+be reinvented much faster than, say in C++ or a typeless scripting language. 
+2. It turned out to be very easy to bind to existing C/C++/JS code, be it in a
+static lib, dynamic lib, C header file, or just copypaste the needed code and
+inline it, no strings attached.
 
 So after all risks considered, we have started, there were huge wins and small
-losses, and I still think that the choise was right, and I'm not leaving Nim
+losses, and I still think that the choice was right, and I'm not leaving Nim
 anytime soon. It is simply brilliant.
 
-Techincal Insights of the Game
+Technical Insights of the Game
 ==============================
 For those interested in what libraries we are using. There are around 60 direct
 and indirect dependencies in the client and around 20 dependencies in the server.
@@ -91,7 +94,7 @@ and others.
 
 I've been asked a question about Nim JS backend, whether it is good or not. And
 the answer is yes, it is pretty darn good (especially with
-[closure compiler](https://github.com/yglukhov/closure_compiler), and we're using
+[closure compiler](https://github.com/yglukhov/closure_compiler)), and we're using
 it for our tools, but not the game itself. At some point we had to switch from JS to
 [Emscripten](https://emscripten.org), just because Asm.js is much faster, and
 thanks to Nim the transition went pretty quickly. Hopefully we shall soon support
