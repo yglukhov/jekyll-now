@@ -32,7 +32,7 @@ naive we were :).
 Being a person who never stops seeking for better technologies (that is how I
 like to think of myself ;) ), I've been searching for a better language than C++
 for a very long time. After learning and trying lots of the well-known languages
-and no satisfaction I've switched to less mainsteam ones. Among them were
+and no satisfaction I've switched to less mainstream ones. Among them were
 [D](https://dlang.org), [Rust](https://www.rust-lang.org),
 [Crystal](https://crystal-lang.org), some others, and [Nim](https://crystal-lang.org),
 which I've suddenly discovered on Github. I shall not describe all of the
