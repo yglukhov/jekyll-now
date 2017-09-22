@@ -11,7 +11,7 @@ to write this first article in my blog :).
 
 Some History
 ============
-The development started about 2 years ago and that was the time of many
+The development started in late 2015 and that was the time of many
 strategic decisions.
 
 Technology stack
