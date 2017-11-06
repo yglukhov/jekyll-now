@@ -5,17 +5,13 @@ title: Choose The Right Language To Save The Planet
 
 So here's a trendy statement that a lot of people would agree with:
 
-```
-Programming language performance doesn't matter in most cases because computers
+> Programming language performance doesn't matter in most cases because computers
 are so powerful the users will barely notice any difference.
-```
 
 And here's another one, even more people should agree with:
 
-```
-We should do whatever is possible to preserve the resources of Earth to keep it
+> We should do whatever is possible to preserve the resources of Earth to keep it
 clean.
-```
 
 So I decided to try and calculate how those two statements violate each other.
 For all the impatient here's the code in Nim that translates your programming
