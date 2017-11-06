@@ -14,8 +14,8 @@ And here's another one, even more people should agree with:
 clean.
 
 So I decided to try and calculate how those two statements violate each other.
-For all the impatient here's the code in Nim that translates your programming
-language performance to the coal burnt:
+For all the impatient here's the code in [Nim](https://nim-lang.org) that
+translates your programming language performance to the coal burnt:
 
 ```nim
 # Inputs
