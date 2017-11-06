@@ -59,7 +59,7 @@ coal burnt per month: 675.0
 ```
 
 675 Kg per month. Or 1488 lbs.
-Let's say there's a programming language that is 20% more efficient, that would
+If there's a programming language that is 20% more efficient, that would
 be 135 Kg difference, or 297 lbs per month. Does it matter? Its for you to decide.
 
 References
