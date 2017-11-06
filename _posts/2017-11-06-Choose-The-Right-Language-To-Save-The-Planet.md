@@ -28,7 +28,7 @@ let cpuPowerDrainKW = cpuPowerDrainWatts / 1000
 let numHoursPerUser = numMinutes / 60
 
 let kwh = cpuPowerDrainKW * (numUsers.float * numHoursPerUser) * averageCPULoad
-let coalKg = kwh * 0.1228 # 1 kWh is equivalent of 0.1228 Kg coal
+let coalKg = kwh * 0.125 # 1 kWh is equivalent of 0.125 Kg coal
 echo "kwh: ", kwh
 echo "coal burnt per day: ", coalKg
 echo "coal burnt per month: ", coalKg * 30
@@ -54,10 +54,16 @@ let cpuPowerDrainWatts = 50
 Run the program and see the output:
 ```
 kwh: 180.0
-coal burnt per day: 22.104
-coal burnt per month: 663.1200000000001
+coal burnt per day: 22.5
+coal burnt per month: 675.0
 ```
 
-663 Kg per month. Or 1461 lbs.
+675 Kg per month. Or 1488 lbs.
 Let's say there's a programming language that is 20% more efficient, that would
-be 132 Kg difference, or 291 lbs per month. Does it matter? Its for you to decide.
+be 135 Kg difference, or 297 lbs per month. Does it matter? Its for you to decide.
+
+References
+----------
+The numbers were looked up on the internet.
+kWh to coal conversion - [European Nuclear Society](https://www.euronuclear.org/info/encyclopedia/f/fuelcomparison.htm)
+CPU energy consumption - [Wikipedia](https://en.wikipedia.org/wiki/List_of_CPU_power_dissipation_figures)
