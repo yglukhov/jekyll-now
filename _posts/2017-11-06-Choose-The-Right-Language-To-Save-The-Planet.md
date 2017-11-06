@@ -65,5 +65,5 @@ be 135 Kg difference, or 297 lbs per month. Does it matter? Its for you to decid
 References
 ----------
 The numbers were looked up on the internet.
-kWh to coal conversion - [European Nuclear Society](https://www.euronuclear.org/info/encyclopedia/f/fuelcomparison.htm)
-CPU energy consumption - [Wikipedia](https://en.wikipedia.org/wiki/List_of_CPU_power_dissipation_figures)
+- kWh to coal conversion - [European Nuclear Society](https://www.euronuclear.org/info/encyclopedia/f/fuelcomparison.htm)
+- CPU energy consumption - [Wikipedia](https://en.wikipedia.org/wiki/List_of_CPU_power_dissipation_figures)
