@@ -19,19 +19,23 @@ translates your programming language performance to the coal burnt:
 
 ```nim
 # Inputs
-let numUsers = 100000 # Number of users that run your code
-let averageCPULoad = 0.1 # Average CPU load. 0.0 - zero, 1.0 - 100% CPU load.
-let numMinutes = 10 # Average user daily session in minutes
-let cpuPowerDrainWatts = 50 # Average CPU power consumption. Laptops and desktops are roughly 30 - 100 Watts.
+# Number of users that run your code:
+let numUsers = 100000
+# Average CPU load (0.0 - zero, 1.0 - 100% CPU load):
+let averageCPULoad = 0.1
+# Average user daily session in minutes:
+let numMinutes = 10
+# Average CPU power consumption (laptops and desktops are roughly 30 - 100 Watts):
+let cpuPowerDrainWatts = 50
 
 let cpuPowerDrainKW = cpuPowerDrainWatts / 1000
 let numHoursPerUser = numMinutes / 60
 
 let kwh = cpuPowerDrainKW * (numUsers.float * numHoursPerUser) * averageCPULoad
 let coalKg = kwh * 0.125 # 1 kWh is equivalent of 0.125 Kg coal
-echo "kwh: ", kwh
-echo "coal burnt per day: ", coalKg
-echo "coal burnt per month: ", coalKg * 30
+echo "kwh per day: ", kwh
+echo "coal burnt per day (kg): ", coalKg
+echo "coal burnt per month (kg): ", coalKg * 30
 ```
 
 I'm sure you can translate this program to your favorite language and run it in
@@ -54,7 +58,7 @@ let cpuPowerDrainWatts = 50
 ```
 Run the program and see the output:
 ```
-kwh: 180.0
+kwh per day: 180.0
 coal burnt per day (kg): 22.5
 coal burnt per month (kg): 675.0
 ```
