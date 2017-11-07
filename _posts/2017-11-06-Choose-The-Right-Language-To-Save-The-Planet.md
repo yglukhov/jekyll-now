@@ -43,7 +43,8 @@ Let's say we're doing a very cool and popular text editor. Developers love it
 so much they keep it open 8 hours a day. Our user base is pretty big, maybe
 around 30000, not to mention those who use the editor from time to time. The
 editor is really optimized, in idle mode the background tasks consume roughly
-1.5% CPU. Lets enter those figures into the program.
+1.5% CPU. The numbers are actually taken from a real world example. Lets enter
+those figures into the program.
 
 ```nim
 let numUsers = 30000
@@ -54,8 +55,8 @@ let cpuPowerDrainWatts = 50
 Run the program and see the output:
 ```
 kwh: 180.0
-coal burnt per day: 22.5
-coal burnt per month: 675.0
+coal burnt per day (kg): 22.5
+coal burnt per month (kg): 675.0
 ```
 
 675 Kg per month. Or 1488 lbs.
