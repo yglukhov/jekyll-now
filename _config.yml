@@ -92,3 +92,8 @@ exclude:
 # Staticman comments (full configuration in staticman.yml)
 staticman:
   branch                 : "master"
+
+# reCaptcha
+reCaptcha:
+  siteKey: "6Lfi1j0UAAAAAKtA5RLhFETIfHxsG9DGfC1DDFUQ"
+  secret: "6Lfi1j0UAAAAAC_kOj7kRClEEicORFpivxgKRfnH"
