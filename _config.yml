@@ -11,6 +11,8 @@ description: Developer
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/6962409?v=3&s=460
 
+repository: yglukhov/yglukhov.github.io
+
 #
 # Flags below are optional
 #
@@ -86,3 +88,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Staticman comments (full configuration in staticman.yml)
+staticman:
+  branch                 : "master"
