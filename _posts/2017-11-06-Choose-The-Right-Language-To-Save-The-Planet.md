@@ -41,7 +41,7 @@ echo "coal burnt per month (kg): ", coalKg * 30
 I'm sure you can translate this program to your favorite language and run it in
 less than a couple of minutes ;)
 
-Sample usage.
+Sample usage
 -------------
 Let's say we're doing a very cool and popular text editor. Developers love it
 so much they keep it open 8 hours a day. Our user base is pretty big, maybe
