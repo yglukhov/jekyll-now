@@ -4,10 +4,10 @@ title: Making ReelValley - Overview
 ---
 
 Recently the team which I am proud to be the part of released a new game named
-[Reel Valley](https://apps.facebook.com/reelvalley). The game is done in almost
-100% pure [Nim](https://nim-lang.org) and I've received a lot of questions
-regarding implementation details and decisions taken. Questions that inspired me
-to write this first article in my blog :).
+Reel Valley. The game is done in almost 100% pure [Nim](https://nim-lang.org)
+and I've received a lot of questions regarding implementation details and
+decisions taken. Questions that inspired me to write this first article in my
+blog :).
 
 Some History
 ============
